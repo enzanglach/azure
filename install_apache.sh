@@ -9,4 +9,4 @@ apt-get -y install apache2
 mv /var/www/html/index.html /var/www/html/index-orig.html
 h=$(hostname)
 d=$(date)
-echo \<center\>\<h1\>My Demo App on $hp at $d\</h1\>\<br/\>\</center\> > /var/www/html/index.html
+echo \<center\>\<h1\>My Demo App on $h at $d\</h1\>\<br/\>\</center\> > /var/www/html/index.html
